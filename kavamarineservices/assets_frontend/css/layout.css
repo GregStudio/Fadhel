@@ -1,0 +1,1220 @@
+/*
+* Skeleton V1.2
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* http://www.opensource.org/licenses/mit-license.php
+* 6/20/2012
+*/
+
+/* Table of Content
+==================================================
+	#Site Styles
+	#Page Styles
+	#Media Queries
+	#Font-Face */
+
+/* #Site Styles
+================================================== */
+	.top { height: 60px; }
+
+
+
+
+/* #URL Styles
+================================================== 
+#topmenu {list-style: none; float:right; font-weight: 600; padding: 12px 0; }
+#topmenu .terpilih{ color:#ecb42d !important;}
+
+#topmenu li{ float:left; margin-left:50px; font-size:13pt; color:#fff; text-align:center;position: relative; height: 30%;}
+#topmenu li a:link, a:visited{ text-decoration:none; color:#FFFFFF !important; display:block; padding:10px; transition: 1s;}
+#topmenu li a:hover, a:active { color:#ecb42d !important; display:block; transition: 1s;}
+
+#topmenu2 {list-style: none; float:right; font-weight: 600; padding: 12px 0; }
+#topmenu2 .terpilih{ color:#a01d23 !important; border-bottom: 3px solid #a01d23; }
+
+#topmenu2 li{ float:left; margin-left:50px; font-size:13pt; color:#fff; text-align:center;position: relative; height: 30%;}
+#topmenu2 li a:link, a:visited{ text-decoration:none; color:#FFFFFF !important; display:block; padding:10px; transition: 1s;}
+#topmenu2 li a:hover, a:active { color:#a01d23 !important; display:block; transition: 1s;}
+
+================================================== */
+
+
+.navbar, .navbar2 {
+  overflow: hidden;
+  font-weight: 600; 
+}
+
+.navbar a:link, .navbar a:visited, .navbar2 a:link, .navbar2 a:visited {
+  float: left;
+  font-size: 13pt;
+  color:#FFFFFF !important;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  height: 30%;
+}
+
+
+.navbarJarak {margin-left:50px;}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+  margin-left:50px;
+}
+
+.dropdown .dropbtn, .dropbtn2{
+  font-size: 13pt;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 10px;
+  background-color: inherit;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.navbar a:hover, .navbar a:active, .dropdown:hover .dropbtn:hover {
+  color:#00FBEC !important; display:block; 
+}
+
+.navbar2 a:hover, .navbar2 a:active, .dropbtn2:hover   {
+  color:#00FBEC !important; display:block; 
+  background-color: transparent !important;
+  padding: 10px !important;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  min-width: 160px;
+  z-index: 1;
+  font-weight: 400;
+  box-shadow: 0 0 50px rgba(33,33,33,.4);
+
+}
+
+.dropdown-content a:link, .dropdown-content a:visited {
+  float: none;
+  color: #3d3d3d !important;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  font-weight: 400;
+  border-bottom: 1px solid #ebebeb; 
+  font-size: 11pt;
+  padding: 10px 20px;
+}
+
+.dropdown-content a:hover {
+  background-color: #a01d23 !important;
+  color: #ffffff !important;
+  font-size: 11pt;
+  padding: 10px 20px !important;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+.logo {}
+#pilihan2 { display:none}
+
+
+#slider { display: block; height: 250px; width: 100%; text-align: center; padding: 100px 0; color: #0B5D9D; }
+#slider .ptksa{ font-size: 18pt; font-weight: 600; color: #0B5D9D   }
+
+.topInfo { display: block; height: 140px; width: 100%; padding: 100px 0; }
+
+.about { text-transform: uppercase; font-weight: 400; color: #ffffff; font-size: 14pt; margin-bottom: 30px; }
+
+#breadcumb { margin: 30px 0; color: #ffc600; font-size: 14pt; font-weight: 400; color:#000000; display: block}
+
+#breadcumb .putih { color: #ffffff; margin:0 10px;  }
+
+a.breadcumbLink:link, a.breadcumbLink:visited { text-decoration:none; 
+	color:#ffffff !important; 
+	transition: 1s; 
+	padding: 0 !important; 
+	display: inline !important; }
+
+a.breadcumbLink:hover, a.breadcumbLink:active { color:#00FBEC !important; 
+	text-decoration: none; 
+	transition: 1s; 
+	padding: 0 !important;  
+	display: inline !important; 
+background-color: transparent !important; font-weight: 400 !important;}
+
+
+#tentangKami { display: block; padding: 0 0 120px 0; color: #303030; }
+#tentangKami h3, h5 { color: #0B5D9D !important; font-weight: 500; }
+#tentangKami h4 { font-weight: 500; }
+#tentangKami .ttd { padding: 30px 0; }
+#tentangKami .foto { padding-top: 40px; }
+
+.gambar100persen { width: 100%; }
+
+
+
+.visimisi { background-color: #ffffff; border-radius: 20px; color: #303030; font-size: 11pt; margin-bottom: 30px;  transition: box-shadow .3s;  }
+.visimisi:hover {box-shadow: 0 0 50px rgba(33,33,33,.4);}
+.visimisiTitle { font-weight: 600; color: #a01d23; text-align: center; text-transform: uppercase; padding: 20px 0;  }
+
+.visipadding { padding: 30px; }
+
+#kontenKami { clear: both; font-size: 24pt; display: block; margin-bottom: 40px; }
+#kontenKami .subJudul { text-transform: uppercase; margin-top: 120px; font-size: 14pt; color: #a01d23; font-weight: 500}
+#kontenKami .judul {font-weight: 600; color: #17354d; font-size: 24pt;  text-transform: uppercase;}
+
+
+
+
+#topKonten {clear: both; font-size: 24pt; display: block; margin-bottom: 80px;}
+#topKonten .subJudulHalaman { text-transform: uppercase; margin-top: 120px; font-size: 14pt; color: #a01d23; font-weight: 500; }
+#topKonten .judulHalaman {font-weight: 600; color: #17354d; font-size: 24pt;  text-transform: uppercase; }
+
+
+
+#oneStop { }
+
+
+
+
+.ourServices { clear: both; text-align: center; font-size: 24pt; display: block; margin-bottom: 80px;}
+
+.ourServices_title { }
+.ourServices_item { color: #1d1d1d; font-weight: 800;  }
+.ourServices_abang { color: #a01d23; font-weight: 400;  }
+
+
+.solutions {background-color: #ffffff; display: inline-block; margin-bottom: 40px; transition: box-shadow .3s;}
+.solutions:hover {box-shadow: 0 0 50px rgba(33,33,33,.4); }
+
+.solutionTeks {color: #5c5b5b; padding: 24px; font-size: 12pt; min-height: 200px; }
+.solutionTitle {}
+
+a.solutionTitleLink:link, a.solutionTitleLink:visited { color: #000000 !important; text-decoration: none; outline: 0; 
+display: block; color: #a01d23; font-size: 14pt; font-weight: 500; text-transform: uppercase;  min-height: 50px; }
+
+a.solutionTitleLink:hover, a.solutionTitleLink:active { 
+
+								min-height: 50px !important;
+								color: #00FBEC !important; 
+								display: block !important;  
+								background-color: transparent !important;
+								text-decoration: none;
+								padding: 0 !important;  }
+
+
+
+
+#oneStop2 {  min-height: 955px; clear: both; width: 100%; 
+			background: #a31d21 url(../images/bg_services.jpg); 
+			-webkit-background-size:cover;
+			-moz-background-size:cover;
+			-o-background-size:cover;
+			background-size:cover;
+			background-position:center; 
+
+			color: #ffffff; 
+			margin: 100px 0 0 0 ;
+			
+		}
+
+
+
+.oneStop2Isi { padding: 120px 0 !important }
+.ourServices2 { clear: both; text-align: center; font-size: 24pt; display: block; margin-bottom: 80px; color: #ffffff}
+
+
+.solutions2 {background-color: #ffffff; display: inline-block; margin-bottom: 40px; border-radius: 20px; transition: box-shadow .3s; float: left;}
+.solutions2:hover {box-shadow: 0 0 50px rgba(33,33,33,.4); }
+.solutions2Image {border-top-left-radius: 20px; border-top-right-radius: 20px;}
+
+
+#daftarBlog {}
+a.more:link, a.more:visited { color: #a01d23 !important; font-weight: 500; font-size: 11pt; display: block; margin-top: 10px; text-decoration: none; }
+
+a.more:hover, a.more:active { color: #0664ac !important; background-color: transparent !important; padding: 0 !important; margin-top: 10px !important;   }
+
+
+a.morePencarian:link, a.more:visited { color: #404040 !important; font-weight: 600; display: block; margin-bottom: 20px; font-size: 12pt; text-decoration: none; }
+
+a.morePencarian:hover, a.more:active { color: #0664ac !important;  }
+
+
+
+
+.blogList {	background-color: #ffffff !important; 
+			display: inline-block; 
+			margin-bottom: 40px; 
+			border-radius: 20px; 
+			
+			font-size: 12pt;
+
+
+			color: #5c5b5b;
+
+			transition: box-shadow .3s; 
+		}
+
+.blogList:hover {box-shadow: 0 0 50px rgba(33,33,33,.4); }
+
+.blogListImage {border-top-left-radius: 20px; border-top-right-radius: 20px; width: 100%}
+
+.blogListTeks { padding: 24px; font-size: 12pt !important; min-height: 200px; }
+.blogListTitle {color: #272727 !important; font-size: 14pt; font-weight: 500; margin-bottom: 20px; display: block;  }
+
+.penulis { display: block; font-size: 8pt; color: #aaa8a8; margin-bottom: 10px; }
+.iconpenulis { font-size: 6pt;  }
+
+#blogDetail {	background-color: #ffffff; 
+			display: inline-block; 
+			margin-bottom: 40px; 
+			border-radius: 20px; 
+			
+			font-size: 12pt;
+
+
+			color: #5c5b5b;
+
+			transition: box-shadow .3s; 
+		}
+
+#blogDetail:hover {box-shadow: 0 0 50px rgba(33,33,33,.4); }
+
+
+
+
+
+#isiBlogDetail { padding: 24px; font-size: 12pt;  }
+#isiBlogDetail .judulBlogDetail { display: block; font-size: 18pt; font-weight: 600; color: #17354d; }
+#isiBlogDetail .blogKategori { font-size: 10pt !important; display: block; height: 50px; }
+
+
+
+#menuBlogKanan {background-color: #ffffff !important; 
+			display: inline-block; 
+			margin-bottom: 40px; 
+			border-radius: 20px; 
+			
+			font-size: 11pt;
+			font-weight: 500; 
+
+
+			color: #303030;
+			width: 100%;
+
+			transition: box-shadow .3s; }
+
+
+#menuBlogKanan ul { list-style-image: url('../images/list.png') !important; }
+#menuBlogKanan li { margin-left: 14px; }
+
+#menuBlogKanan h4 { font-size: 21px; line-height: 30px; margin-bottom: 24px; font-weight: 600; }
+
+#menuBlogKanan .formInput {	
+					border: 1px solid #d9d9d9; 
+					width: 64%; height: 30px; 
+					background-color: #ffffff; 
+					color : #575656; 
+					font-size: 12pt; 
+					padding : 8px 10px;
+					float:left; 
+					}
+
+a.menuBlogKananLink:link, 	a.menuBlogKananLink:visited {text-decoration:none;}
+a.menuBlogKananLink:hover, 	a.menuBlogKananLink:active {
+	color:#00FBEC !important; 
+	background-color: transparent !important;
+	padding: 0 !important; 
+	margin: 0 !important; }
+
+
+
+#menuBlogKanan .searchTombol {margin: 0px; width: 20%; height: 50px; display: inline-block;  border: 0; background-color: #0a5260; color: #ffffff; font-size: 12pt;}	
+
+#menuBlogKanan .searchTombol:hover { border: 0; }
+
+.isimenuBlogKanan { padding: 20px; }			
+
+
+.features { display: block; padding: 100px 0;  }
+.featuresTitle { color: #a01d23; text-transform: uppercase; font-weight: 500 }
+.featuresTitle2 { color: #272727; text-transform: uppercase; font-weight: 600; font-size: 22pt; }
+
+
+.featuresListContent {display: inline-block; min-height: 66px; }
+
+.featuresListKiri {width: 48px; height: 48px; margin-right: 28px; float: left; }
+
+.featuresListKanan { width: 80%; float: left;}
+
+.featuresListTitle {color: #a01d23; text-transform: uppercase; font-size: 14pt; font-weight: 500}
+.featuresListDesc {color: #383838; font-size: 12pt; }
+
+.featuresListJarak { height: 40px; width: 100%;  display: inline-block;  }
+
+
+.history {  min-height: 220px; clear: both; width: 100%; 
+			background: #a31d21 url(../images/bg_history.jpg); 
+			-webkit-background-size:cover;
+			-moz-background-size:cover;
+			-o-background-size:cover;
+			background-size:cover;
+			background-position:center; 
+			text-align: center;
+			color: #ffffff; 
+			
+		}
+
+.historyAngka { font-size: 38pt; font-weight: 500; display: block; margin-top: 50px;}	
+.historyJarak { margin: 0 30px; background-color: #cccccc; width: 1000px; min-height: 100px; display: block; }
+.year {font-size: 20pt; }
+sup {
+  vertical-align: super;
+  color: #ffc600;
+  font-size: 18pt;
+}	
+
+
+.kontak { 	margin-top: 0px;
+			min-height: 816px;  			
+			background: #a31d21 url(../images/bg_kontak.jpg); 
+			-webkit-background-size:cover;
+			-moz-background-size:cover;
+			-o-background-size:cover;
+			background-size:cover;
+			background-position:center;
+			color: #ffffff; }
+
+.kontakKami { text-transform: uppercase; margin-top: 120px; font-size: 14pt; font-weight: 500 }			
+
+.kontakTitle { font-weight: 600; color: #ffffff; font-size: 24pt; margin-top: 30px;  }	
+
+
+
+.kontak { 	margin-top: 0px;
+			min-height: 816px;  			
+			}
+
+
+.testimoni { display: block; min-height: 760px; padding: 0; }	
+.testimoniMereka { text-transform: uppercase; margin-top: 120px; font-size: 14pt; color: #a01d23; font-weight: 500 }	
+.testimoniJudul { font-weight: 600; color: #272727; font-size: 24pt; margin: 30px 0 80px 0;  }	
+
+.kotakTestimoni  {	background-color: #ffffff; 
+						display: inline-block; 
+						width: 100%; 
+						margin-bottom: 40px;  
+						border-radius : 20px;
+						}
+
+.kotakHasilPencarian {	background-color: #ffffff; 
+						margin-bottom: 40px;  
+						border-radius : 20px;
+					  	display: flex !important;
+  						flex-wrap: wrap !important;
+  						width: 100%;
+						}
+
+.masonry { /* Masonry container */
+  column-count: 2; 
+  column-gap: 1em;
+}
+
+.item { /* Masonry bricks or child elements */
+  background-color: #ffffff; border-radius : 20px;
+  display: inline-block;
+  margin: 0 0 1em;
+  width: 100%;
+}
+
+.isiTestimoni, .isiHasilPencarian { padding: 50px 20px; color: #605f5f; font-size: 11pt;border-radius : 20px; transition: box-shadow .3s; }
+.isiTestimoni:hover, .isiHasilPencarian:hover {box-shadow: 0 0 50px rgba(33,33,33,.4); }
+.judulTestimoni, .judulHasilPencarian { color: #404040; font-weight: 600; display: block; margin-bottom: 40px; font-size: 12pt;  }
+.jumlahBintang { display: block; margin: 40px 0;  }
+.bintangKuning { color: #fca307 }
+.bintangAbu { color: #d2dbe0 }
+
+.judulHasilPencarian { color: #404040; font-weight: 600; display: block; margin-bottom: 20px; font-size: 14pt;  }
+.linkHasilPencarian { color: #097ada; }
+
+
+
+.fotoTesti, .fotoLowongan {	margin-right: 10px; 
+				float: left;       
+				width: 64px;
+      			height: 64px;
+      			background: #a01d23;
+      			border-radius: 50% }
+
+.fotonews {max-height: 400px !important; width: 100% !important;
+    overflow: hidden !important;}  
+
+.fotokarir {height: 240px !important; width: 100% !important;
+    overflow: hidden !important;}          			
+
+.teksTesti { float: left;}
+.testiNama { color: #333333; font-weight: 600;  font-size: 14pt }
+.testiPersh { color: #a01d23; font-weight: 600; font-size: 12pt }
+
+.testiJarak { height: 54px; width: 100%;  display: block;  }
+.tinggiJarak { padding-top: 80px !important; clear: both; display: block; width: 100%;  }
+
+.bersihkan { display: block; padding: 0 0 40px 0; }
+
+
+
+
+.kotakKarir {background-color: #ffffff; display: inline-block; width: 100%; margin-bottom: 40px;  border-radius : 20px;}
+.isiKarir { padding: 50px 20px; color: #605f5f; font-size: 11pt;border-radius : 20px; transition: box-shadow .3s; }
+.isiKarirTop { padding-bottom: 20px; border-bottom: 1px solid #b8b7b7; }
+.isiKarir:hover {box-shadow: 0 0 50px rgba(33,33,33,.4); }
+.judulKarir { display: block; color: #a01d23; font-weight: 600; margin: 30px 0; font-size: 13pt;  }
+
+.kontakCabang { padding: 50px 20px; color: #605f5f; font-size: 11pt !important;border-radius : 20px; transition: box-shadow .3s; }
+.kontakCabang:hover {box-shadow: 0 0 50px rgba(33,33,33,.4); }
+
+
+.unitLowongan { color: #333333; font-weight: 600;  font-size: 13pt }
+.jumlahKebutuhan { color: #a01d23;  font-size: 9pt }
+
+
+#listLowongan { margin: 50px 0; }
+#listLowongan h1{ color: #17354d; font-weight: 600; text-align: center; margin-bottom: 60px; }
+#listLowongan h3{ color: #1b1b1b; font-weight: 600; text-transform: uppercase; font-size: 18pt; }
+#listLowongan h4{ color: #a01d23; font-weight: 600; font-size: 14pt;   }
+
+#listLowongan  .lowongan {	background-color: #ffffff !important; 
+			display: inline-block; 
+			margin-bottom: 40px; 
+			border-radius: 20px; 
+			
+			font-size: 12pt;
+
+
+			color: #5c5b5b;
+
+			transition: box-shadow .3s; 
+		}
+
+#listLowongan .lowongan:hover {box-shadow: 0 0 50px rgba(33,33,33,.4); }
+
+#listLowongan .lowonganTeks { padding: 10px; text-align: center !important; }
+
+
+a.lowonganLink:link, a.lowonganLink:visited {
+	padding: 10px !important; 
+	background-color: #0664ac !important; 
+	color: #ffffff !important; 
+	text-align: center !important;
+	border-radius: 10px !important; 
+	display: block !important; 
+	margin: 30px 25% !important; 
+	float: none !important; 
+	text-decoration: none !important;
+	width: 44%;
+
+
+}
+
+a.lowonganLink:hover, a.lowonganLink:active {
+	padding: 10px !important; 
+	background-color: #a01d23 !important; 
+	color: #ffffff !important; 
+	text-align: center !important;
+	border-radius: 10px !important; 
+	display: block !important; 
+	margin: 30px 0; 
+	float: none !important; 
+	text-decoration: none !important;
+}
+
+
+#alamat { display: block; background-color: #ffffff; width: 100%; border-radius: 20px; font-size: 10pt; clear: both; padding: 44px 10px 24px 10px; }
+.tanpaJarak { margin: 0 14px !important;  }
+.alamatTeks { padding-bottom: 20px; margin: 0 14px !important;   }
+
+
+
+#uploadLamaran { display: block; margin: 50px 0 !important; }
+.judulFormLamaran { width: 10%; }
+.tinggiKolom {height: 60px !important; width: 23%; }
+tr:hover {background-color: #f5f5f5 !important;}	
+
+
+
+
+.footer { 	clear: both; 
+			display: block; 
+			width: 100%; 
+			min-height: 600px; 
+			background: #091f2c url(../images/bg_footer.jpg);  
+			-webkit-background-size:cover;
+			-moz-background-size:cover;
+			-o-background-size:cover;
+			background-size:cover;
+			background-position:center;
+			color: #ffffff;
+			margin-top: 100px;  }
+
+
+.footerJarak { padding: 86px 0; }
+
+#sosmed { float: right; display: inline-block; text-align: right;  }
+
+a.sosmedLink:link, a.sosmedLink:visited { display: inline-block; margin: 0 2px;  }
+a.sosmedLink:hover, a.sosmedLink:active { opacity: 0.8; padding: 0 !important;background-color: transparent !important;  }
+
+
+
+
+.footerPadding { padding: 0px 0; }
+.footerMenuTitle { display: block; text-transform: uppercase; font-weight: 500; font-size: 14pt; min-height: 40px; margin-bottom: 10px; }
+
+#footerMainMenu {  }
+#footerMainMenu ul { list-style-image: url('../images/list.png') !important; }
+#footerMainMenu li { margin-left: 14px; }
+
+#footerMainMenu2 {  }
+#footerMainMenu2 ul { list-style-image: url('../images/list.png') !important; }
+#footerMainMenu2 li { margin-left: 14px; }
+
+
+
+#footerServices {  }
+#footerServices ul { list-style-image: url('../images/list.png'); }
+#footerServices li {margin-left: 14px; }
+
+
+#footerContact { font-size: 10pt;}
+
+
+a.footerLink:link, a.footerLink:visited { font-size:10pt; color:#ffffff !important; text-decoration:none;  }
+a.footerLink:hover, a.footerLink:active { color:#00FBEC !important; 
+	background-color: transparent !important; 
+	font-weight: 400 !important; 
+	padding: 0 !important;
+	margin: 0 !important; }
+
+
+.Kiri, .KiriLogo { float: left; margin-right: 10px }
+.jarakKiri { margin-right: 10px; }
+.jarakBawah { margin-top: 35px; }
+.jarakBawah100 { clear: both; margin-bottom: 100px !important; display: block; background-color: #cccccc !important; min-height: 100px !important; width: 100%; }
+.font600 { font-weight: 600 }
+.font12pt { font-size: 12pt;}
+.font10pt { font-size: 10pt; color: #d3dce1}
+.font9pt { font-size: 9pt; color: #a01d23;}
+
+.font8pt { font-size: 8pt; margin-right: 5px  }
+
+.tengah { text-align: center; }
+.tengahCopyright { text-align: center; padding-bottom: 30px  }
+
+.iconAwesome { font-size: 10pt; color: #a31d21; margin-right: 10px}
+
+
+.hasilPencarian { color: #17354d; text-transform: uppercase; font-weight: 600; font-size: 18pt; }
+.merahTua {color: #a01d23; text-transform: uppercase; font-weight: 600; font-size: 22pt;}
+
+.linkBlokPas {color:#ffffff !important; text-decoration:none; font-size: 11pt; background-color: #303030; padding: 10px 14px; border-radius: 8px; margin: 0 3px;   }
+.lebarPaging {padding: 10px 14px;}
+a.linkBlok:link, a.linkBlok:visited {color:#ffffff !important; text-decoration:none; font-size: 11pt; background-color: #a31d21; padding: 10px 14px; border-radius: 8px; margin: 0 3px;   }
+a.linkBlok:hover, a.linkBlok:active {color:#ffffff !important; text-decoration:none; font-size: 11pt; background-color: #303030; padding: 10px 14px; border-radius: 8px;  }
+
+
+/* #Page Styles
+================================================== */
+
+/* #Media Queries
+================================================== */
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {}
+
+
+/* #Font-Face
+================================================== */
+/* 	This is the proper syntax for an @font-face file
+		Just create a "fonts" folder at the root,
+		copy your FontName into code below and remove
+		comment brackets */
+
+/*	@font-face {
+	    font-family: 'FontName';
+	    src: url('../fonts/FontName.eot');
+	    src: url('../fonts/FontName.eot?iefix') format('eot'),
+	         url('../fonts/FontName.woff') format('woff'),
+	         url('../fonts/FontName.ttf') format('truetype'),
+	         url('../fonts/FontName.svg#webfontZam02nTh') format('svg');
+	    font-weight: normal;
+	    font-style: normal; }
+*/
+
+
+	.judulcommited { color: #ffffff; font-weight: 600; font-size: 26pt }
+
+
+
+	/* #Tombol-Face
+================================================== */
+
+
+
+#tombolSlider { margin-top:20px;   
+				position: relative; 
+				width: 220px; 
+				display: block; 
+				height: 46px;
+				transform: translate(-50%, -50%);
+				left: 50%;
+  			   }
+
+
+a.tombolSliderLink:link, a.tombolSliderLink:visited {
+  background-color: #a01d23;
+
+  color: #ffffff !important;
+  padding: 16px 26px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transform: skew(-14deg);
+  font-weight: 400;
+
+  transition: .5s;
+
+}
+
+a.tombolSliderLink:hover, a.tombolSliderLink:active {
+
+
+  background-color: #00FBEC !important; 
+  color: #000000;
+  transition: .5s;
+  display: inline-block !important;
+  padding: 16px 26px !important;
+  transform: skew(-14deg) !important;
+}
+
+#tombolSlider span { display: inline-block; transform: skew(14deg); color: #ffffff } /* Un-skew the text */
+
+
+
+.openBtn {
+
+  border: none;
+  font-size: 14pt;
+  cursor: pointer;
+}
+
+.openBtn:hover {
+
+}
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  display: none;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(160,29,35);
+  background-color: rgba(160,29,35, 0.9);
+
+
+}
+
+.overlay-content {
+  position: relative;
+  top: 26%;
+  width: 40%;
+  text-align: center;
+  margin-top: 30px;
+  margin: auto;
+
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+  cursor: pointer;
+  color: white;
+}
+
+.overlay .closebtn:hover {
+  color: #ccc;
+}
+
+.overlay input[type=text] {
+  padding: 15px;
+  font-size: 16pt;
+	border: none; /* <-- This thing here */
+    border:solid 0px #ffffff;
+    border-radius: 100px;
+
+  width: 60%;
+  background: white;
+  color : #000000 !important;
+  display: inline-block;
+}
+
+.overlay input[type=text]:hover {
+  background: #f1f1f1; 
+}
+
+.overlay button {
+  width: 60px;
+  padding: 16px 20px;
+  background: #ecb42d;
+  font-size: 16pt;
+  border: none;
+  cursor: pointer;
+
+	border: none; /* <-- This thing here */
+    border:solid 0px #ffffff;
+    border-radius: 100px;  
+}
+
+.overlay button:hover {
+  background: #bbb;
+}
+
+
+.overlay-content::placeholder {
+  color: #a9a9a9 !important;
+  opacity: 1; /* Firefox */
+}
+
+
+/* Form Styles
+================================================== */
+
+
+.form-style-9{
+	max-width: 580px;
+}
+.form-style-9 ul{
+	padding:0;
+	margin:0;
+	list-style:none;
+}
+.form-style-9 ul li{
+	display: block;
+	margin-bottom: 10px;
+	min-height: 35px;
+}
+.form-style-9 ul li  .field-style{
+	box-sizing: border-box; 
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box; 
+	padding: 8px;
+	outline: none;
+	border: 1px solid #B0CFE0;
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+
+}.form-style-9 ul li  .field-style:active{
+	box-shadow: 0 0 5px #B0CFE0;
+	border:1px solid #B0CFE0;
+}
+.form-style-9 ul li .field-split{
+	width: 49%;
+}
+.form-style-9 ul li .field-full{
+	width: 100%;
+}
+.form-style-9 ul li input.align-left{
+	float:left;
+}
+.form-style-9 ul li input.align-right{
+	float:right;
+}
+.form-style-9 ul li textarea{
+	width: 100%;
+	height: 100px;
+}
+.form-style-9 ul li input[type="button"], 
+.form-style-9 ul li input[type="submit"] {
+	-moz-box-shadow: inset 0px 1px 0px 0px #3985B1;
+	-webkit-box-shadow: inset 0px 1px 0px 0px #3985B1;
+	box-shadow: inset 0px 1px 0px 0px #3985B1;
+	background-color: #216288;
+	border: 1px solid #17445E;
+	display: inline-block;
+	cursor: pointer;
+	color: #FFFFFF;
+	padding: 8px 18px;
+	text-decoration: none;
+	font: 12px Arial, Helvetica, sans-serif;
+}
+.form-style-9 ul li input[type="button"]:hover, 
+.form-style-9 ul li input[type="submit"]:hover {
+	background: linear-gradient(to bottom, #2D77A2 5%, #337DA8 100%);
+	background-color: #28739E;
+}
+
+::placeholder {
+  color: #ffffff;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color: #ffffff;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+ color: #ffffff;
+}
+
+
+
+.subscribeInput {	border-radius: 8px !important; 
+					border: 1px solid #1c3846 !important; 
+					width: 340px; height: 40px; 
+					background-color: #1c3846 !important; 
+					color : #ffffff; 
+					font-size: 12pt !important; 
+					font-weight: 600;
+					padding : 10px 20px !important;
+					float:left; 
+					}
+
+.subscribeTombol {margin: 0px !important; width: 166px; height: 62px; background: url(../images/button_subscriber.png) !important; display: inline-block !important;  border: 0 !important}	
+
+.subscribeTombol:hover { border: 0 !important; }
+
+
+.searchingInput {	
+					border-radius : 8px !important;
+					border: 0px solid #ffffff; 
+					width: 270px !important; height: 40px; 
+					background-color: #ffffff !important; 
+					color : #ffffff; 
+					font-size: 12pt !important; 
+					font-weight: 600;
+					padding : 8px 20px !important;
+					}
+
+.searchingTombol {	margin-left: 0px !important; 
+					width: 137px; height: 56px; 
+					background: url(../images/button_search_again.png) !important; 
+					display: inline-block !important;  border: 0 !important}	
+
+.searchingTombol:hover { border: 0 !important }
+
+
+
+
+/* Form Contact Us  */
+#formKontakKami{
+	max-width: 100%; 
+}
+
+
+#formKontakKami input[type="text"],
+#formKontakKami input[type="email"], 
+#formKontakKami textarea
+{
+ background-color: #ffffff !important;
+
+}
+
+#formKontakKami input[type="button"], 
+#formKontakKami input[type="submit"] {
+
+}
+
+.formKontakPendek {
+	background-color: #ffffff !important;
+	border-radius: 8px !important;
+	border: 1px solid #cccccc !important;
+	color : #4c4b4b !important;
+	padding : 16px !important;
+	width: 39% !important;
+}
+
+.formKontakTextArea {
+	background-color: #ffffff !important;
+	border-radius: 8px !important;
+	border: 1px solid #cccccc !important;
+	color : #4c4b4b !important;
+	padding : 16px !important;
+	width: 90% !important;
+}
+
+.formKontakPilihan {
+width: 45% !important;
+
+}
+
+.formKontakPendek::placeholder, .formKontakTextArea::placeholder  {
+  color: #a9a9a9;
+  opacity: 1; /* Firefox */
+}
+
+/* Form Contact US  */
+
+
+/* Form Pilihan Career  */
+
+#formPilihanKarir {
+	width: 100%;
+	background-color: #dce4e7;
+	display: block;
+	padding: 80px 0 40px 0;
+	text-align: center;
+	opacity: 0.8;
+	font-size: 14pt;
+	cursor: pointer;
+}
+
+#formPilihanKarir:hover {
+	opacity: 1;
+}
+
+
+#formPilihanKarir .pilihanDept { 
+	display: inline-block !important; 
+	width: 30%;
+	background-color: #257e82 !important;
+	padding: 20px;
+	border-radius: 50px !important;	
+	font-size: 14pt;
+
+	}
+
+#formPilihanKarir .tombolCariKarir {
+	background-color: #a01d23;
+	border-radius: 50px !important;	
+	font-size: 16pt;
+	padding: 20px;
+	width: 100px;
+	color: #ffffff;
+
+	}
+
+.jarakForm { margin-right: 20px !important;  }
+.panjangtexform { width: 92% !important; }
+
+
+.tombolSubmit { 
+	 
+	padding: 18px 22px !important;
+	background-color: #009dfb !important;
+	font-weight: 500 !important;
+	font-size: 12pt !important;
+	border-radius: 6px !important; 
+	border: 0px solid !important;
+	margin-right: 8px;
+	color: #ffffff !important;
+	text-shadow: none  !important;
+	 }
+
+.tombolSubmit:hover { 
+	 box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	 background:none;
+	 opacity: 1;
+	 background-color: #ecb42d !important;
+	 color: #181818 !important;
+	 font-weight: 600 !important;
+	}
+
+
+
+
+.tombolSubmitMerah { 
+	 
+	padding: 18px 22px !important;
+	background:none;
+	background-color: #a31d21 !important;
+	font-weight: 500 !important;
+	font-size: 12pt !important;
+	border-radius: 6px !important; 
+	border: 0px solid !important;
+	margin: 28px 8px 0 0;
+	color: #ffffff !important;
+	text-shadow: none  !important;
+	 }
+
+.tombolSubmitMerah:hover { 
+	 box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	 background:none;
+	 opacity: 1;
+	 background-color: #ecb42d !important;
+	 color: #181818 !important;
+	 font-weight: 600 !important;
+	}
+
+/* Form Pilihan Career  */
+
+
+/*  accordion FAQ   */
+.accordion {
+  background-color: #999999;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+  border-radius: 10px;
+  text-shadow:none !important;
+  margin-top: 20px !important;
+}
+
+.active, .accordion:hover {
+  background-color: #0664ac;
+  text-shadow:none !important; 
+  color: #ffffff;
+}
+
+.accordion:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 11pt;
+  color: #ffffff !important;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+
+.panel {
+  padding: 30px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+  border-radius: 10px;
+  font-size: 12pt;
+}
+
+
+
+/* animation   */
+
+#sliderText,  #sliderText .slide{
+  width: 1100px;
+  height: 300px;
+
+}
+#sliderText {
+  overflow: hidden;
+  margin: 0 auto;
+  font-size: 1.2em;
+}
+#sliderText .containerSlide {
+  position: relative;
+  width: 9000px; /* Assign an insanely large width */
+  top: 0;
+  right: 0;
+  animation: slide-animation 25s infinite;
+  
+}
+#sliderText .slide {
+  position: relative;
+  float: left;
+  box-sizing: border-box;
+  padding: 10px 20px;
+  
+}
+
+@keyframes slide-animation {
+  0% { 
+    opacity: 0;
+    right: 0;
+  }
+  11% {
+    opacity: 1;
+    right: 0; 
+  }
+  22% { right: 100%; }
+  33% { right: 100%; }
+  44% { right: 200%; }
+  55% { right: 200%; }
+  66% { right: 300%; }
+  77% { right: 300%; }
+  88% {
+    opacity: 1;
+    right: 400%; 
+  }
+  100% {
+    opacity: 0;
+    right: 400%;
+  }
+}
+
+/* Place Holder CSS */
+::-webkit-input-placeholder {
+
+  opacity: 0.5;
+  -webkit-transition: opacity 0.35s ease-in-out;
+  transition: opacity 0.35s ease-in-out;
+}
+:-moz-placeholder {
+
+  opacity: 0.5;
+  -moz-transition: opacity 0.35s ease-in-out;
+  transition: opacity 0.35s ease-in-out;
+}
+::-moz-placeholder {
+
+  opacity: 0.5;
+  -moz-transition: opacity 0.35s ease-in-out;
+  transition: opacity 0.35s ease-in-out;
+}
+:-ms-input-placeholder {  
+
+  opacity: 0.5;
+  -ms-transition: opacity 0.35s ease-in-out;
+  transition: opacity 0.35s ease-in-out;
+}
+
+/* Place Holder CSS for Focus */
+:hover::-webkit-input-placeholder {
+  opacity: 0;
+  -webkit-transition: opacity 0.35s ease-in-out;
+  transition: opacity 0.35s ease-in-out;
+}
+:hover:-moz-placeholder {
+  opacity: 0;
+  -moz-transition: opacity 0.35s ease-in-out;
+  transition: opacity 0.35s ease-in-out;
+}
+:hover::-moz-placeholder {
+  opacity: 0;
+  -moz-transition: opacity 0.35s ease-in-out;
+  transition: opacity 0.35s ease-in-out;
+}
+:hover:-ms-input-placeholder {  
+  opacity: 0;
+  -ms-transition: opacity 0.35s ease-in-out;
+  transition: opacity 0.35s ease-in-out;
+}

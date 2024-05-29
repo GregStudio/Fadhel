@@ -1,0 +1,354 @@
+/*
+* Skeleton V1.0 
+* Hak Cipta 2019, Ariyanto Deni
+* www.256warna.com
+* Gratis di bawah lisensi MIT
+* http://www.opensource.org/licenses/mit-license.php
+* 09/11/2019
+*/
+
+
+/* Table of Contents
+==================================================
+    #Base 1240 Grid
+    #Tablet (Portrait)
+    #Mobile (Portrait)
+    #Mobile (Landscape)
+    #Clearing */
+
+
+
+/* #Base 1240 Grid
+================================================== */
+
+    .container                                  { position: relative; width: 1200px; margin: 0 auto; padding: 0; }
+    .container .column,
+    .container .columns                         { float: left; display: inline; margin-left: 3%; margin-right: 2%; }
+    .row                                        { margin-bottom: 0px; }
+
+    /* Nested Column Classes */
+    .column.alpha, .columns.alpha               { margin-left: 0; }
+    .column.omega, .columns.omega               { margin-right: 0; }
+
+    /* Base Grid */
+    .container .one.column,
+    .container .one.columns                     { width: 10%; }
+    .container .two.columns                     { width: 22%; }
+    .container .three.columns                   { width: 28%;  }
+    .container .four.columns                    { width: 38%; }
+    .container .five.columns                    { width: 45%; }
+
+    .container .six.columns                     { width: 60%; }
+    .container .seven.columns                   { width: 70%; }
+    .container .eight.columns                   { width: 80%; }
+    .container .nine.columns                    { width: 90%; }
+    .container .ten.columns                     { width: 100%;  }
+
+
+
+
+/* #Dekstop (1920)
+================================================== */
+
+@media only screen and (max-width: 1920px) {
+
+    .testimoniMereka, .testimoniJudul { text-align: center; }
+
+}
+
+
+/* Laptop for a width of 1280px-1440px */
+@media only screen and (min-width: 1280px) and (max-width: 1440px) {
+
+
+    .slider { max-height:100px !important; }
+    .testimoniMereka, .testimoniJudul { text-align: center; }
+
+
+}
+
+
+/* Note: Design for a width of 768px-1024px */
+
+    @media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+
+        .container                                  { width: 724px;  }
+
+
+
+        .topInfo { min-height: 20px !important; padding: 0px 0 !important; }
+        
+
+        .about { margin: 7px 0; font-size:   11pt;  }
+
+        .judulcommited, .ptksa { font-size: 12pt;  }
+
+        #slider { max-height:100px !important;   }
+
+
+        #breadcumb { margin: 10px 0; color:#4c4b4b; font-size: 10pt;}
+
+        .fotoTesti { display: none; float: none; }
+        .teksTesti { float: none !important;  }
+        .slider { max-height:100px !important; }
+
+        #topmenu {padding: 0 !important;}
+        #topmenu li{ margin-left:10px !important; font-size:11pt !important; }
+
+        .Kiri { float: none !important; }
+
+        .subscribeTombol {width: 60px; height: 60px; background: url(../images/button_subscriber_kecil.png) !important; } 
+
+        
+        .navbar a, .navbar a:visited, 
+        .navbar2 a, .navbar2 a:visited,
+        .dropdown .dropbtn, .dropbtn2 {
+                
+                    font-size: 11pt;
+
+                    }
+
+
+        .navbarJarak {margin-left:6px;}
+
+        .slider { padding: 80px 0; }
+
+        #slider { max-height: 150px; padding: 10px 0; position: absolute;   }
+        #slider .ptksa{ font-size: 13pt !important;  }
+
+        #sliderText,  #sliderText .slide{  width: 700px; font-size: 12pt !important; font-weight: 500;  }
+        .judulcommited { font-size: 16pt !important;    }
+
+        #tombolSlider { margin-top:0px !important; }
+
+
+        .ourServices { margin: 300px 0 40px 0; color: #ffffff}
+
+
+        .solutionTitle {font-size: 12pt; min-height: 40px; }
+        .solutionTeks {font-size: 11pt;  }
+
+
+        .featuresListDesc {font-size: 11pt; }
+        .featuresListKiri {width: 30px; height: 30px; margin-right: 20px; float: left; }
+
+        .featuresListKanan { width: 80%; float: left;}
+
+
+        .testiNama { font-size: 11pt }
+        .testiPersh {  font-size: 8pt }
+        .testiJarak { height: 0px;   }
+        .jumlahBintang { margin: 10px 0;  }
+
+        .footerMenuTitle { font-size: 10pt; margin-bottom: 10px; min-height: 30px; }
+
+        .KiriLogo { display: block; float: none; margin-bottom: 20px; }
+
+
+        .item-1, 
+        .item-2 { top: 2em;                 }
+
+        .judulAnim {font-size: 14pt; font-weight: 600; color: #ffffff; }
+
+        .item-1{    font-size: 14pt;          }
+
+        .item-2{      font-size: 10pt;          }
+
+
+    }
+
+
+/*  #Mobile (Portrait)
+================================================== */
+
+    /* Note: Design for a width of 320px */
+
+@media only screen and (max-width: 767px) {
+    .container { width: 310px !important; }
+
+    .container .column,
+    .container .columns                         { float: left; display: inline; margin-left: 0%; margin-right: 0%; }
+
+
+    /* Base Grid */
+    .container .one.column,
+    .container .one.columns,                     
+    .container .two.columns,        
+    .container .three.columns,        
+    .container .four.columns,         
+    .container .five.columns,       
+
+    .container .six.columns,          
+    .container .seven.columns,       
+    .container .eight.columns,          
+    .container .nine.columns,                   
+    .container .ten.columns                     { width: 100%;  }        
+    
+
+    .slider { max-height:130px !important; }
+
+    /* #pilihan2 {
+        display: block;
+        width: 300px;
+        border: 1px solid #ccc;
+        padding: 6px 4px;
+        outline: none;
+        -moz-border-radius: 2px;
+        -webkit-border-radius: 2px;
+        border-radius: 5px;
+        font: bold 13px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; 
+        color: white;
+        margin: 0 auto; 
+        margin-bottom: 10px;
+        background: rgba(0, 0, 0, 0); 
+        appearance: none;
+        background-image: none;
+        text-align: center; 
+    } */
+    
+    
+    #pilihan2:focus {
+        background: rgba(0, 0, 0, 0.15); /* Latar belakang transparan saat fokus */
+    }
+    
+
+
+    #topmenu, .navbar2, .navbar { display: none; }
+    .logo { display: none; }
+
+    .tengah { text-align: center }
+
+    #sosmed  {  float: none !important }
+
+
+    .slider { padding: 30px 0;}
+
+    
+
+    #slider { max-height: 170px; padding: 10px 0; position: absolute;   }
+    #slider .ptksa{ font-size: 11pt !important; color: #ffffff; !important   }
+
+    #sliderText,  #sliderText .slide{ height:400px; width: 350px; font-size: 10pt !important; font-weight: 400; !important ; color: #ffffff;}
+    .judulcommited { font-size: 12pt !important; color: #1d1d1d !important  }
+
+    #tombolSlider { margin-top:0px !important; }
+ 
+
+    .ourServices { 
+        font-size: 14pt; 
+        display: block; 
+        margin: 400px 0 40px 0;
+        padding: 25px;
+    }
+    
+    .judul { font-size: 14pt !important; }
+
+
+
+    .features { padding: 20px 0 40px 0;  }
+
+
+    .history {  padding: 40px 0; }
+
+
+    .testimoniJudul {  color: #272727; font-size: 14pt;   }  
+
+    .fotoLowongan { display: none; }
+    .fotoTesti {     
+                width: 44px;
+                height: 44px;
+                border-radius: 50% }
+
+    .testiNama { font-size: 11pt }
+    .testiPersh { font-size: 10pt }
+    .testiJarak { height: 24px;   }
+
+    .subscribeTombol {width: 60px; height: 60px; background: url(../images/button_subscriber_kecil.png) !important; } 
+
+    #tentangKami { 
+        padding: 30px; /* Menambahkan jarak antara border dan konten */
+        margin-top: 30px !important; 
+        margin-bottom: 60px; /* Menambahkan margin bawah */
+        border: 2px;
+        background-color: #ffffff; 
+        border-radius: 25px; 
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+    #typingText {
+        color: black;
+    }
+    
+    #kontenKami .subJudul { margin-top: 40px; font-size: 14pt; }
+    .topInfo { min-height: 40px; padding: 0px 0; }
+
+
+
+    #breadcumb { color:#4c4b4b; font-size: 10pt; margin: 10px 0;}
+    #breadcumb a:link, a:visited{ text-decoration:none; color:#4c4b4b !important; transition: 1s; }
+    #breadcumb a:hover, a:focus { text-decoration: underline; transition: 1s; }
+    .putih {color:#4c4b4b !important; margin:0 2px !important; }
+
+    .KiriLogo { display: block; float: none; margin-bottom: 20px; }
+
+    .footerMenuTitle { margin: 20px 0; min-height: 30px; display:   block; }
+
+    .subscribeInput { float: none; }
+
+    .iconSaja { display: none; }
+
+        #tombolSlider { margin-top:50px;    }
+
+        .item-1, 
+        .item-2 { top: 2em; width: 300px;                }
+
+        .judulAnim {font-size: 11pt; font-weight: 600; color: #000000; }
+
+        .item-1{    font-size: 10pt; color: #000000;          }
+
+        .item-2{      font-size: 10pt; color: #000000;         }
+
+    .masonry { /* Masonry container */
+     column-count: 1; 
+    }
+
+    }
+
+
+
+
+
+/* #Clearing
+================================================== */
+
+    /* Self Clearing Goodness */
+    .container:after { content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
+
+    /* Use clearfix class on parent to clear nested columns,
+    or wrap each row of columns in a <div class="row"> */
+    .clearfix:before,
+    .clearfix:after,
+    .row:before,
+    .row:after {
+      content: '\0020';
+      display: block;
+      overflow: hidden;
+      visibility: hidden;
+      width: 0;
+      height: 0; }
+    .row:after,
+    .clearfix:after {
+      clear: both; }
+    .row,
+    .clearfix {
+      zoom: 1; }
+
+    /* You can also use a <br class="clear" /> to clear columns */
+    .clear {
+      clear: both;
+      display: block;
+      overflow: hidden;
+      visibility: hidden;
+      width: 0;
+      height: 0;
+    }
